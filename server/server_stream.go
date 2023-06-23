@@ -4,7 +4,7 @@ import (
 	"log"
 	"time"
 
-	pb "github.com/akhil/grpc-demo/proto"
+	pb "go_grpc/proto"
 )
 
 // Стрим Server -> Client

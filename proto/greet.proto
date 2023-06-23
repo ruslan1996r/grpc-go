@@ -10,7 +10,7 @@ package greet_service;
 // defining all the Services for the gRPC
 service GreetService {
     // simple RPC
-    rpc SayHello(NoParam) returns (HelloResponse);
+    rpc SayHelloMethod(NoParam) returns (HelloResponse);
     // server streaming RPC
     rpc SayHelloServerStreaming(NamesList) returns (stream HelloResponse);
     // client streaming RPC

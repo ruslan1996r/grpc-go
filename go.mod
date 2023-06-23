@@ -1,4 +1,4 @@
-module github.com/akhil/grpc-demo
+module go_grpc
 
 go 1.18
 

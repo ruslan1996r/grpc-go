@@ -4,7 +4,8 @@ import (
 	"log"
 	"net"
 
-	pb "github.com/akhil/grpc-demo/proto" // Тут можно также указывать ссылку на локальную директорию, например, proto
+	pb "go_grpc/proto"
+
 	"google.golang.org/grpc"
 )
 
